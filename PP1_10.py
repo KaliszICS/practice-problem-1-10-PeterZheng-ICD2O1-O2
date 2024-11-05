@@ -1,37 +1,39 @@
 
 
 def q1(): 
-  #Write Assignment code here
   import math
-  num = input("Input a number: ")
-  int(num)
-  print (math.sqrt(int(num)))
+  #Write Assignment code here
+
+
+  num = int(input("Input a number: "))
+  
+  print (math.sqrt(num))
   
 def q2(): 
   #Write Assignment code here
   import math
-  num = input ("Input a number: ")
-  print (math.isqrt(int(num)))
+  num = int(input("Input a number: "))
+  print (math.isqrt(num))
 def q3(): 
   #Write Assignment code here
   import math
-  num = input ("Input a number: ")
+  num = int(input("Input a number: "))
   print (math.floor(float(num)))
 
 def q4(): 
   #Write Assignment code here
   import math
-  num = input ("Input a number: ")
+  num = float(input("Input a number: "))
   print (math.ceil(float(num)))
 
 def q5(): 
   #Write Assignment code here
   import math
-  num = input ("Input a number: ")
-  num2 = input ("Input another number: ")
-  answ = (int(num))* (int(num2))
+  num = int(input ("Input a number: "))
+  num2 = int(input ("Input another number: "))
+  answ = (num) * (num2)
 
-  int(answ)
+
   answ2 = int(answ/2)
   print (math.floor(answ2))
 #Do not alter the following code
