@@ -1,11 +1,10 @@
 
 
 def q1(): 
-  import math
   #Write Assignment code here
+  import math
 
-
-  num = int(input("Input a number: "))
+  num = input("Input a number: ")
   
   print (math.sqrt(num))
   
