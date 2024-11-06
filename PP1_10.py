@@ -5,8 +5,8 @@ def q1():
   import math
 
   num = input("Input a number: ")
-  
-  print (math.sqrt(num))
+  num = float(num)
+  print(math.sqrt(num))
   
 def q2(): 
   #Write Assignment code here
